@@ -35,5 +35,6 @@ public class BadMove : MonoBehaviour
     private void OnMouseDown()
     {
         Score.score--;
+        Destroy(gameObject);
     }
 }
