@@ -37,5 +37,6 @@ public class GoodMove : MonoBehaviour
     private void OnMouseDown()
     {
         Score.score++;
+        Destroy(gameObject);
     }
 }
